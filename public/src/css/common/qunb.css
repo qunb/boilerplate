@@ -1,0 +1,18 @@
+/*------------------------------------------
+This CSS file is the default style to be applied to qunb.
+Its scope covers full web app.
+Surcharge, but do not replace foundations
+------------------------------------------*/
+
+/* dependencies
+we rely on foundation and normalize
+Note that we should use a customized foundation that embeds only useful classes
+*/
+@import url('../../vendor/normalize.css');
+@import url('../../vendor/foundation/css/foundation.min.css');
+
+/* qunb specific*/
+@import url('foundation-override.css');
+@import url('img.css');
+@import url('fonts.css');
+@import url('helpers.css');

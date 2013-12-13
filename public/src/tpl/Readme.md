@@ -1,0 +1,1 @@
+Main files : tpl.html. Those files need a context to be displayed. Context can be given for design purpose with wrap.html files. they are feeded with mock.json data files.

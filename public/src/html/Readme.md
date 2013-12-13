@@ -1,0 +1,1 @@
+each page is independant and works as standalone. Imports only one css with same name from ../css/

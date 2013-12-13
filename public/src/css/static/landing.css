@@ -1,0 +1,368 @@
+@import url('../scope/static.css');
+
+#homePage {
+	background: #fff;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#homePage #topContainer {
+	padding: 55px 0 0 0;
+	margin: 0;
+	overflow: hidden;
+	position: relative;
+	background: #101116 50% 50% no-repeat;
+	background-image: url("../../images/connectbgtwo.jpg");
+	background-size: cover;
+
+}
+#homePage .top-bar,
+#homePage .top-bar .right {
+	background: transparent;
+	height: 65px;
+}
+#homePage .top-bar {
+	padding: 5px 60px;
+	margin: 0 0 60px 0;
+	z-index: 15;
+	position: relative;
+}
+#homePage .top-bar li {
+	height: auto;
+	background: transparent;
+}
+#homePage .headerLink {
+	background: transparent;
+	font-size: 1rem;
+	font-weight: normal;
+	line-height: 3em;
+}
+#homePage #mainTopBar.top-bar a {
+	background: transparent;
+	color: #bbb;
+	line-height: 4em;
+	-webkit-transition: color 300ms;
+	transition: color 300ms;
+}
+#homePage #mainTopBar.top-bar #accountLink a {
+	line-height: 2em;
+}
+#homePage #mainTopBar.top-bar a:hover {
+	color: white;	
+}
+
+#homePage #topContainer #introHome {
+	text-align: center;
+	color: #ddd;
+	padding: 5% 0;
+	z-index: 10;
+	position: relative;
+}
+#homePage #topContainer #introHome h1 {
+	color: #ddd;
+	font-size: 3rem;
+	margin: 0 0 30px 0;
+	text-shadow: 3px 3px 0px rgba(10, 10, 10, .5);
+}
+#homePage #topContainer #introHome h1 strong {
+	color: #fff;
+}
+#homePage #topContainer #introHome p {
+	font-size: 1.2rem;
+	line-height: 1.6em;
+}
+#homePage .button.primary {
+	margin: 60px 0 15px 0;
+}
+#homePage #learnMoreLink {
+	color: #ddd;
+	border-bottom: 1px solid #ddd;
+}
+#homePage #learnMoreLink:hover {
+	border-bottom: none;
+}
+
+#homePage #mainContainer .fullRow {
+	padding: 60px 0;
+}
+#homePage #mainContainer #rowIntro {
+	background: #131313;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzEzMTMxMyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjElIiBzdG9wLWNvbG9yPSIjMjUyNTI1IiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMiUiIHN0b3AtY29sb3I9IiMzMzMzMzMiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSI5NCUiIHN0b3AtY29sb3I9IiMzMzMzMzMiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMmEyYTJhIiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
+	background: -moz-linear-gradient(top,  #131313 0%, #252525 1%, #2e2e2e 2%, #2e2e2e 94%, #2a2a2a 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#131313), color-stop(1%,#252525), color-stop(2%,#2e2e2e), color-stop(94%,#2e2e2e), color-stop(100%,#2a2a2a));
+	background: -webkit-linear-gradient(top,  #131313 0%,#252525 1%,#2e2e2e 2%,#2e2e2e 94%,#2a2a2a 100%);
+	background: -o-linear-gradient(top,  #131313 0%,#252525 1%,#2e2e2e 2%,#2e2e2e 94%,#2a2a2a 100%);
+	background: -ms-linear-gradient(top,  #131313 0%,#252525 1%,#2e2e2e 2%,#2e2e2e 94%,#2a2a2a 100%);
+	background: linear-gradient(to bottom,  #131313 0%,#252525 1%,#2e2e2e 2%,#2e2e2e 94%,#2a2a2a 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#131313', endColorstr='#2a2a2a',GradientType=0 );
+
+	color: #ddd;
+}
+#homePage #mainContainer #rowIntro h2 {
+	color: #ddd;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+#homePage #mainContainer #rowIntro h3 {
+	color: #ddd;
+	margin-bottom: 35px;
+	margin-top: 0;
+}
+#homePage #mainContainer #rowFooter {
+	padding: 15px 30px;
+	border-top: 1px solid #ddd;
+	background: #f6f6f6;
+}
+#homePage #mainContainer #rowFooter p {
+	margin: 0;
+	font-size: 0.8rem;
+	line-height: 2.5em;
+}
+#homePage #mainContainer #rowFooter a {
+	color: #6e6e6e;
+	border-bottom: 1px solid #6e6e6e;
+}
+#homePage #mainContainer #rowFooter a:hover {
+	border-bottom: none;
+}
+#homePage #mainContainer #rowFooter #mixpanelButton {
+	margin-right: 30px;
+}
+#homePage #mainContainer #rowFeatures i {
+	font-size: 2.8rem;
+}
+#homePage #mainContainer #rowFeatures li {
+	padding: 0 1.5em;
+	display: block;
+	height: 245px;
+}
+#homePage #mainContainer #featuresTxt {
+	margin-top: 45px;
+}
+#homePage #mainContainer #featuresTxt a {
+	text-decoration: underline;
+}
+#homePage #mainContainer #featuresTxt a:hover {
+	text-decoration: none;
+}
+#homePage #mainContainer #rowCTABottom {
+	padding: 0 0 120px;
+}
+#homePage #mainContainer #rowCTABottom .button {
+	margin: 0 auto;
+}
+
+#homePage #mainContainer .moveDown {
+     -webkit-border-radius: 90px;
+     -moz-border-radius: 90px;
+     border-radius: 90px;
+     position: relative;
+     margin-left: auto;
+     margin-right: auto;
+     float: none;
+     cursor: pointer;
+     z-index: 2;
+     border: 2px solid #ffffff;
+     height: 50px;
+     width: 50px;
+     display: block;
+     margin: 0 auto;
+     margin-top: 25px;
+     line-height: 2.9em;
+     color: #ffffff;
+     opacity: .6;
+     -webkit-box-shadow: 0 0px 8px rgba(255, 255, 255, .2);
+     -moz-box-shadow: 0 0px 8px rgba(255, 255, 255, .2);
+     box-shadow: 0 0px 8px rgba(255, 255, 255, .2);
+ }
+ #homePage #mainContainer .moveDown i {
+     margin-left: -3px;
+     position: relative;
+ }
+
+ .blinker {
+     -webkit - animation - name: blinker;
+     - moz - animation - name: blinker;
+     - o - animation - name: blinker;
+     animation - name: blinker;
+     animation - duration: 6s;
+     - webkit - animation - duration: 6s;
+     - moz - animation - duration: 6s;
+     - o - animation - duration: 6s;
+     - webkit - animation - iteration - count: infinite;
+     - moz - animation - iteration - count: infinite;
+     - o - animation - iteration - count: infinite;
+     animation - iteration - count: infinite;
+     animation - timing - function: ease - in -out;
+     - moz - animation - timing - function: ease - in -out;
+     - webkit - animation - timing - function: ease - in -out;
+     - o - animation - timing - function: ease - in -out;
+ }
+
+
+#homePage #rowHowTo .row {
+	padding-top: 120px;
+	padding-bottom: 0;
+	border-bottom: 1px solid #eaeaea;
+}
+#homePage #rowHowTo .row .txt .vAlignOuterContainer {
+	height: 294px;
+	width: 100%;
+}
+#homePage #rowHowTo .row .txt.right .vAlignInnerContainer {
+	text-align: right;
+}
+#homePage #rowHowTo .row .txt.left .vAlignInnerContainer {
+	text-align: left;
+}
+#homePage #rowHowTo .row:first-of-type {
+	padding-top: 0px;
+}
+/*#homePage #rowHowTo .row:last-of-type {
+	padding-bottom: 30px;
+	border-bottom: none;
+}*/
+
+/* SVG */
+#homePage #topContainer svg {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 5;
+	/*opacity: .75;*/
+}
+
+svg g {
+	fill: none;
+}
+
+svg .line {
+	stroke-width: 2px;
+}
+
+svg .area {
+	fill-opacity: 0.5;
+}
+
+svg .dots circle {
+	stroke-width: 2px;
+	r: 2px;
+}
+svg .group:first-child .area {
+	fill: rgba(48, 118, 172, .2);
+}
+
+svg g .group:nth-child(2) .area {
+	fill: rgba(210, 68, 64, .2);
+}
+
+svg g .group:first-child .line, svg g .group:first-child .dots circle {
+	stroke: #3076ac; 	
+}
+
+svg g .group:nth-child(2) .line, svg g .group:nth-child(2) .dots circle {
+	stroke:#d24440; 	
+}
+
+svg g .group:first-child .dots circle {
+	fill: #3076ac;
+}
+
+svg g .group:nth-child(2) .dots circle {
+	fill: #d24440;
+}
+
+/* TODO : Put this in main qunb css when ready */
+#homePage .button.secondary {
+	background: transparent;
+	border-color: #bbb;
+	border-style: solid;
+	border-top-width: 2px;
+	border-left-width: 2px;
+	border-right-width: 2px;
+	border-bottom-width: 4px;
+	border-radius: 3px;
+	color: #bbb;
+	font-size: 1rem;
+	/*height: auto;*/
+	height: 55px;
+	line-height: 2em;
+	/*padding: 0.3em 3em;*/
+	padding: 0.6em 4em;
+	margin: 0;
+	position: static;
+	-webkit-transition: color 300ms, border-color 300ms;
+	transition: color 300ms, border-color 300ms;
+}
+#homePage .button.secondary:hover {
+	border-color: #fff;
+	color: #fff;
+}
+#homePage .button.primary {
+	border-radius: 3px;
+	color: #eee;
+	font-size: 1rem;
+	height: 55px;
+	line-height: 2em;
+	padding: 0.6em 4em;
+	position: static;
+	/*background: #3076ac;*/
+	background: -webkit-gradient(linear, center top, center bottom, color-stop(0, #db4f4c), color-stop(.5, #d74e4b), color-stop(.5, #ce423f), to(#c9403d));
+	border-color: #c73c45;
+	box-shadow: none;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	/*border-bottom: 3px solid #134266;*/
+	border-bottom: 2px solid #7E100E;
+	/*border-bottom: none;*/
+	/*letter-spacing: 0.06em;*/
+  /*background: -webkit-gradient(linear, center top, center bottom, color-stop(0, #367aaf), color-stop(.5, #3276ab), color-stop(.5, #2d6fa2), to(#2a6a9c));
+  border-color: #2c6da0;*/
+
+  -webkit-transition: color 300ms, background 300ms, border-bottom 300ms;
+	transition: color 300ms;
+}
+#homePage .button.primary:hover {
+	/*border-bottom: 3px solid #194C73;*/
+	border-bottom: 2px solid #8B1815;
+	/*background: #3D88C1;*/
+	background: -webkit-gradient(linear, center top, center bottom, color-stop(0, #E7625F), color-stop(.5, #D95754), color-stop(.5, #D64D4A), to(#D04C49));
+	color: #fff;
+}
+
+/* Small screens */
+@media only screen and (max-width: 40em) {
+	#homePage #topContainer #introHome h1 {
+		font-size: 2rem;
+	}
+	#homePage .button.primary {
+		height: auto;
+		/*font-size: 0.9rem;*/
+		line-height: 1.5;
+		padding-top: 1em;
+		padding-bottom: 1em;
+	}
+	#homePage #topContainer {
+		/*padding-top: 20px;*/
+		height: auto;
+	}
+	#homePage .top-bar {
+		height: auto;
+		margin-bottom: 0px;
+	}
+	#homePage #mainTopBar.top-bar a {
+		font-size: 0.8rem;
+		line-height: 1.3;
+		padding: 0.8em;
+		height: auto;
+		text-align: center;
+	}
+	#homePage .top-bar .title-area {
+		margin-bottom: 20px;
+	}
+	#homePage .top-bar .right {
+		height: auto;
+	}
+	/*.vAlignOuterContainer {
+		width: 100%;
+	}*/
+}

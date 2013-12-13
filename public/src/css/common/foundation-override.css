@@ -1,0 +1,26 @@
+/* We should check that all classes here are only foundation elements that have been overriden
+Beware, scope here is for all qunb code; including blog and static pages
+*/
+
+
+/* Buttons */
+.button {
+  border-radius: 3px;
+}
+.button.primary {
+  background-color: #3076ac;
+  background: -webkit-gradient(linear, center top, center bottom, color-stop(0, #367aaf), color-stop(.5, #3276ab), color-stop(.5, #2d6fa2), to(#2a6a9c));
+  border-color: #2c6da0;
+  color: white;
+}
+.button.secondary {
+  background-color: #efefef;
+  border-color: #ddd;
+  color: #6e6e6e;
+}
+.button.secondary:hover {
+  background-color: #ddd;
+  border-color: #ccc;
+  color: #6e6e6e;
+}
+

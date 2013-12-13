@@ -1,0 +1,46 @@
+/* Everything that is directly related to typography. General purpose */
+
+@font-face {
+    font-family:'futura-n';
+    src:url('../../font/FuturaLT/FuturaLT.ttf') format('truetype');
+}
+@font-face {
+    font-family:'futura-b';
+    src:url('../../font/FuturaLT/FuturaLT-Book.ttf') format('truetype');
+}
+@font-face {
+    font-family:'futura-bb';
+    src:url('../../font/FuturaLT/FuturaLT-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family:'museo-n';
+    src:url('../../font/Museo/Museo300-Regular.otf') format('opentype');
+}
+@font-face {
+    font-family:'museo-l';
+    src:url('../../font/Museo/Museo100-Regular.otf') format('opentype');
+}
+
+body {
+	font-family: "futura-n", "Helvetica", Helvetica, Arial, sans-serif;
+	color: #6e6e6e;
+  text-rendering: optimizeLegibility;
+}
+
+
+/* Default header styles */
+h1, h2, h3, h4, h5, h6 {
+	color: #6e6e6e;
+}
+
+h1, h3, h5, h6 {
+  font-family: "futura-n", "Helvetica", Helvetica, Arial, sans-serif;
+}
+
+h2, h4 {
+  font-family: 'museo-l', 'Palatino Linotype', serif;
+}
+
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+	color: #bbbbbb; 
+}

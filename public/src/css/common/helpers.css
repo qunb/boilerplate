@@ -1,0 +1,25 @@
+.row.fullRow {
+  max-width: 100%;
+  width: 100%;
+}
+
+
+.hidden {
+  display: none;
+}
+.vAlignOuterContainer {
+  display: table;
+  height: 180px;
+  overflow: hidden;
+  width: 100%;
+}
+.vAlignInnerContainer {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.vAlignElementContainer {
+  display: block;
+}
